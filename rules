@@ -11,7 +11,8 @@
 
 
 
-MAKEOPTS = -j2 prefix=/usr/local
+MAKEOPTS_CONCURRENCY = -j2
+MAKEOPTS_1 = prefix=/usr/local
 
 configure: configure-stamp
 configure-stamp:
@@ -27,7 +28,7 @@ build-stamp: configure-stamp
 	dh_testdir
 
 	# Add here commands to compile the package.
-	$(MAKE) $(MAKEOPTS)
+	$(MAKE) $(MAKEOPTS_CONCURRENCY) $(MAKEOPTS_1)
 	#docbook-to-man debian/gitcj.sgml > gitcj.1
 
 	touch $@
@@ -49,7 +50,7 @@ install: build
 	dh_installdirs
 
 	# Add here commands to install the package into debian/gitcj.
-	$(MAKE) $(MAKEOPTS) DESTDIR=$(CURDIR)/debian/gitcj install install-doc install-info
+	$(MAKE) $(MAKEOPTS_1) DESTDIR=$(CURDIR)/debian/gitcj install install-doc install-info
 
 
 # Build architecture-independent files here.
