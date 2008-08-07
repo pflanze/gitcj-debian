@@ -1,4 +1,4 @@
-gitcj (v1.6.0-rc2) unstable; urgency=low
+gitcj (1.6.0-rc2) unstable; urgency=low
 
   * "New upstream version", now installing to /usr, ok?
 
