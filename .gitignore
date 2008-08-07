@@ -1,0 +1,7 @@
+*~
+.gitignore
+
+files
+gitcj.debhelper.log
+gitcj.substvars
+gitcj
