@@ -11,7 +11,7 @@
 
 
 
-MAKEOPTS_CONCURRENCY = -j2
+MAKEOPTS_CONCURRENCY = -j3
 MAKEOPTS_1 = prefix=/usr
 
 configure: configure-stamp
