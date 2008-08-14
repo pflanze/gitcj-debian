@@ -1,13 +1,12 @@
 Source: gitcj
 Section: unknown
 Priority: extra
-Maintainer: Christian Jaeger <christian-novo@jaeger.mine.nu>
+Maintainer: Christian Jaeger <christian@jaeger.mine.nu>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
-Homepage: <insert the upstream URL, if relevant>
 
 Package: gitcj
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
+Description: Git built as one single package, from sources tracked by myself
  <insert long description, indented with spaces>
