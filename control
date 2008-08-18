@@ -8,5 +8,6 @@ Standards-Version: 3.7.3
 Package: gitcj
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Conflicts: git-core, git-arch, git-cvs, git-doc, git-email, git-gui, git-svn, gitk
 Description: Git built as one single package, from sources tracked by myself
  <insert long description, indented with spaces>
