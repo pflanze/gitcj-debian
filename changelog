@@ -1,3 +1,9 @@
+gitcj (1.6.0.2) unstable; urgency=low
+
+  * New upstream release
+
+ -- Christian Jaeger <christian-novo@jaeger.mine.nu>  Thu, 09 Oct 2008 01:59:19 +0200
+
 gitcj (1.6.0) unstable; urgency=low
 
   * New upstream release (which now already includes the gitk fix)
