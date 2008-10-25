@@ -1,3 +1,15 @@
+gitcj (1.6.0.3) unstable; urgency=low
+
+  * New upstream release
+
+ -- Christian Jaeger <christian-novo@jaeger.mine.nu>  Fri, 24 Oct 2008 09:19:45 +0200
+
+gitcj (1.6.0.2.1.g2980b5c) unstable; urgency=low
+
+  * Fix inheritance in Git.pm
+
+ -- Christian Jaeger <christian-novo@jaeger.mine.nu>  Sat, 18 Oct 2008 20:38:42 +0200
+
 gitcj (1.6.0.2) unstable; urgency=low
 
   * New upstream release
