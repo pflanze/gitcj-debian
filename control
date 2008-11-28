@@ -16,4 +16,7 @@ Description: Git built as one single package, from sources tracked by myself
  .
  More info and the build files from:
  http://www.christianjaeger.ch/debs/git/
+ .
+ Mirror of the build files at:
+ http://repo.or.cz/w/gitcj-debian.git
 

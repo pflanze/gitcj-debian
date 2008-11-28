@@ -8,4 +8,7 @@ upgradeable/deinstallable deb.
 More info and the build files from:
 http://www.christianjaeger.ch/debs/git/
 
+(Mirror of the build files at:
+http://repo.or.cz/w/gitcj-debian.git)
+
  -- Christian Jaeger <christian@jaeger.mine.nu>  Thu, 07 Aug 2008 13:42:20 +0200
