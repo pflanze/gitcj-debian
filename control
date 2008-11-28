@@ -10,4 +10,10 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Conflicts: git-core, git-arch, git-cvs, git-doc, git-email, git-gui, git-svn, gitk
 Description: Git built as one single package, from sources tracked by myself
- <insert long description, indented with spaces>
+ An easy everything-from-upstream-Git-in-one-go package. Just upstream
+ Git without any Debian specific changes, but still as an easily
+ upgradeable/deinstallable deb.
+ .
+ More info and the build files from:
+ http://www.christianjaeger.ch/debs/git/
+
