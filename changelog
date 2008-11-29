@@ -1,3 +1,9 @@
+gitcj (1.6.0.4-1) unstable; urgency=low
+
+  * Better package description and README file texts
+
+ -- Christian Jaeger <christian-novo@jaeger.mine.nu>  Sat, 29 Nov 2008 01:42:48 +0100
+
 gitcj (1.6.0.4) unstable; urgency=low
 
   * New upstream release
