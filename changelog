@@ -1,3 +1,9 @@
+gitcj (1:1.6.0.4-3) unstable; urgency=low
+
+  * Add version prefix "1:" like the one the Debian packages use
+
+ -- Christian Jaeger <christian-novo@jaeger.mine.nu>  Fri, 05 Dec 2008 18:31:03 +0100
+
 gitcj (1.6.0.4-2) unstable; urgency=low
 
   * Add Provides, so that packages depending on Git can be installed
