@@ -1,3 +1,14 @@
+gitcj (1.6.0.4-2) unstable; urgency=low
+
+  * Add Provides, so that packages depending on Git can be installed
+
+    Sadly, this doesn't help with packages which have versioned
+    dependencies, like qgit; there is said to be no way creating
+    versioned Provides. So to install qgit, we will still need fake
+    (equivs) packages.
+
+ -- Christian Jaeger <christian-novo@jaeger.mine.nu>  Fri, 05 Dec 2008 17:33:03 +0100
+
 gitcj (1.6.0.4-1) unstable; urgency=low
 
   * Better package description and README file texts
