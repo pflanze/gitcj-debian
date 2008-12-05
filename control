@@ -9,6 +9,7 @@ Package: gitcj
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Conflicts: git-core, git-arch, git-cvs, git-doc, git-email, git-gui, git-svn, gitk
+Provides: git-core, git-arch, git-cvs, git-doc, git-email, git-gui, git-svn, gitk
 Description: Git built as one single package, from sources tracked by myself
  An easy everything-from-upstream-Git-in-one-go package. Just upstream
  Git without any Debian specific changes, but still as an easily
