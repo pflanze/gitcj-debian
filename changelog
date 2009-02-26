@@ -1,3 +1,9 @@
+gitcj (1:1.6.2.rc2) unstable; urgency=low
+
+  * new upstream
+
+ -- Christian Jaeger <christian-novo@jaeger.mine.nu>  Thu, 26 Feb 2009 17:53:31 -0500
+
 gitcj (1:1.6.2.rc0) unstable; urgency=low
 
   * new upstream
