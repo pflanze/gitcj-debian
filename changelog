@@ -1,3 +1,29 @@
+gitcj (1:1.6.5.1.2.g042c597) unstable; urgency=low
+
+  * new upsteam and my gitk refresh patch
+
+ -- Christian Jaeger <christian-novo@jaeger.mine.nu>  Thu, 22 Oct 2009 12:43:47 -0400
+
+gitcj (1:1.6.4.4) unstable; urgency=low
+
+  * new upstream
+    (had to use -b force flag; so .rc1 is a bigger, will give me
+    problems on install. sigh)
+
+ -- Christian Jaeger <christian-novo@jaeger.mine.nu>  Thu, 24 Sep 2009 21:43:15 -0400
+
+gitcj (1:1.6.4.rc1) unstable; urgency=low
+
+  * new upstream
+
+ -- Christian Jaeger <christian-novo@jaeger.mine.nu>  Fri, 17 Jul 2009 21:37:12 -0400
+
+gitcj (1:1.6.3.3) unstable; urgency=low
+
+  * new upstream
+
+ -- Christian Jaeger <christian-novo@jaeger.mine.nu>  Mon, 06 Jul 2009 15:35:38 -0400
+
 gitcj (1:1.6.3.2) unstable; urgency=low
 
   * new upstream
