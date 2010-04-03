@@ -8,6 +8,7 @@ Standards-Version: 3.7.3
 Package: gitcj
 Architecture: any
 Depends: ${shlibs:Depends}, liberror-perl
+Recommends: libsvn-perl
 Conflicts: git-core, git-arch, git-cvs, git-doc, git-email, git-gui, git-svn, gitk
 Provides: git-core, git-arch, git-cvs, git-doc, git-email, git-gui, git-svn, gitk
 Description: Git built as one single package, from sources tracked by myself
