@@ -1,3 +1,10 @@
+gitcj (1:1.7.0.3) unstable; urgency=low
+
+  * new upstream (removed my gitk refresh patch again because of
+    problems)
+
+ -- Christian Jaeger <christian-novo@jaeger.mine.nu>  Sun, 04 Apr 2010 19:04:59 -0400
+
 gitcj (1:1.6.5.1.2.g042c597) unstable; urgency=low
 
   * new upsteam and my gitk refresh patch
