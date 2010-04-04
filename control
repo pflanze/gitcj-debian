@@ -9,7 +9,7 @@ Package: gitcj
 Architecture: any
 Depends: ${shlibs:Depends}, liberror-perl
 Recommends: libsvn-perl
-Conflicts: git-core, git-arch, git-cvs, git-doc, git-email, git-gui, git-svn, gitk
+Conflicts: git-core (< 1:1.9.9-1.cj), git-arch (< 1:1.9.9-1.cj), git-cvs (< 1:1.9.9-1.cj), git-doc (< 1:1.9.9-1.cj), git-email (< 1:1.9.9-1.cj), git-gui (< 1:1.9.9-1.cj), git-svn (< 1:1.9.9-1.cj), gitk (< 1:1.9.9-1.cj)
 Provides: git-core, git-arch, git-cvs, git-doc, git-email, git-gui, git-svn, gitk
 Description: Git built as one single package, from sources tracked by myself
  An easy everything-from-upstream-Git-in-one-go package. Just upstream
