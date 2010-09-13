@@ -5,10 +5,15 @@ An easy everything-from-upstream-Git-in-one-go package. Just upstream
 Git without any Debian specific changes, but still as an easily
 upgradeable/deinstallable deb.
 
-More info and the build files from:
-http://www.christianjaeger.ch/debs/git/
+Build instructions
+------------------
 
-(Mirror of the build files at:
-http://repo.or.cz/w/gitcj-debian.git)
+ git clone $upstream_git_url
+ cd git
+ git clone http://github.com/pflanze/gitcj-debian debian
+ # check/add entry at the top of debian/changelog for the
+ # version of Git you want to build.
+ dpkg-buildpackage -uc -us -b -r'fakeroot -u'
 
- -- Christian Jaeger <christian@jaeger.mine.nu>  Thu, 07 Aug 2008 13:42:20 +0200
+ -- Christian Jaeger <chrjae@gmail.com>
+
