@@ -1,1 +1,19 @@
-README.Debian
+Upstream Git for Debian
+-----------------------
+
+An easy everything-from-upstream-Git-in-one-go package. Just upstream
+Git without any Debian specific changes, but still as an easily
+upgradeable/deinstallable deb.
+
+Build instructions
+------------------
+
+ git clone $upstream_git_url
+ cd git
+ git clone http://github.com/pflanze/gitcj-debian debian
+ # check/add entry at the top of debian/changelog for the
+ # version of Git you want to build.
+ dpkg-buildpackage -uc -us -b -r'fakeroot -u'
+
+ -- Christian Jaeger <chrjae@gmail.com>
+
