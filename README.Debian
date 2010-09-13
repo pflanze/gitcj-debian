@@ -8,12 +8,18 @@ upgradeable/deinstallable deb.
 Build instructions
 ------------------
 
- git clone $upstream_git_url
+ git clone git://git.kernel.org/pub/scm/git/git.git
  cd git
+ # change the checkout to whichever version you want
+
  git clone http://github.com/pflanze/gitcj-debian debian
+
  # check/add entry at the top of debian/changelog for the
- # version of Git you want to build.
+ # version of Git you want to build (run "git describe").
+ # You can run "debchange --newversion $versionstring" for that.
+
  dpkg-buildpackage -uc -us -b -r'fakeroot -u'
+ # (add -j2 if you've got a dual core cpu, etc.)
 
  -- Christian Jaeger <chrjae@gmail.com>
 
